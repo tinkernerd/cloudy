@@ -1,0 +1,13 @@
+name = "cloudy"
+pages_build_output_dir = ".vercel/output/static"
+compatibility_date = "2023-08-27"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "CLOUDY-D1"
+database_name = "CLOUDY-D1"
+database_id = "141a19d4-4450-4a82-bc46-a0caacc922f5"
+
+[[r2_buckets]]
+binding = "cloudy-demo"
+bucket_name = "tinkernerd-cdn"
